@@ -4,18 +4,19 @@
 
 
 ## Team Name
-Name  
+Luttappi
 
 # Team Member
-Member 1 Github Link
+Devika Krishnan M github.com/devika-krishnan
 
-MEmber 2 Github Link
+Ananthakrishnan J github.com/an4nthu
 
 ## Idea
-Breif Idea in two three sentences 
+Our idea is to help research oriented students find professors who are in need of research fellows to partner with.The website also offers latest research articles and opportunities.
 
 ## Features 
-1. 
+1. Find professors for research
+2. offer latest articles about research topics
 
 ## Link to product walkthrough
 [link to video](Link Here)
