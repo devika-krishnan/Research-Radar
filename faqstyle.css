@@ -1,0 +1,39 @@
+body {
+    background-color: #cad2c5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 40px;
+}
+
+h2 {
+    text-align: center;
+    color: #1c330f;
+}
+
+a {
+    color: #1c330f;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: serif;
+}
+
+#ques {
+    color: #17260e;
+    font-size: 20px;
+}
+
+p {
+    color: #466534;
+    font-size: 16px; /* Adjusted font size for better readability */
+    line-height: 1.6; /* Improved line height for better spacing */
+}
+.ans{
+    background-color:#d1cece;
+    padding:10px;
+    border-radius: 20px;
+}
+header:hover{
+    color:#08d026;
+}
+a:hover{
+    color:#182d1b;
+}

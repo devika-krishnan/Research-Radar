@@ -8,18 +8,19 @@ body{
     background-color: #cad2c5;
 }
 h2{
-    color:#7aab62;
+    color:#206b05;
     text-align: center;
     font-size: 35px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #fi
 {
-    color:#6a994e;
+    color:#206b05;
+    
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: inline-block;
     font-size: larger;
-    margin-left:1150px;
+    margin-left:1000px;
     margin-top:5px;
 
 }
@@ -39,8 +40,12 @@ h2{
   flex-direction: row;
   
  
-  box-shadow: 0 8px 8px #6a994e;
+  box-shadow: 0 8px 8px #56624f;
   border-radius: 14px;
+    
+}
+.inner:hover{
+    background-color: #b4bab1;
     
 }
 img{
@@ -60,4 +65,9 @@ img{
 }
 input{
     height:25px;
+}
+a:hover{
+    color:#182d1b;
+text-decoration: underline;
+
 }

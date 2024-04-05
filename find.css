@@ -6,4 +6,39 @@ a{
     text-decoration: none;
     font-size: 20px;
     font-family: serif;
+
+}
+a:hover{
+    color:#182d1b;
+}
+p{
+    color:#0b331a;
+    font-size: 20px;
+    font-family: serif;
+}
+
+.pro
+{
+background-color: #b4c7c3;
+margin-left:20px;
+padding:20px;
+font-family: serif;
+display:inline-block;
+margin-right: 20px; 
+
+}
+img{
+    height:250px;
+}
+#outer,
+#outer2,
+#outer3 {
+    display: flex;
+    flex-wrap: nowrap; 
+    overflow-x: auto; 
+}
+div{
+    text-align: center;
+    color: darkslategrey;
+    font-family: serif;
 }

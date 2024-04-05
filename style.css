@@ -2,22 +2,40 @@ img{
     padding-left: 50px;
     width:15em;
     opacity: 0.7;
-    margin-right:300px;
+    margin-right:70px;
+}
+body{
+    margin:0;
 }
 #quote
 {
-    height:10px;
+    height:60px;
+    width:60px;
+ 
+}
+#quo
+{
+    display:flex;
+    flex-direction: row;
+}
+#q{
+  
+    font-size: 25px;
+    color:#606c38;
+    font-family: georgia;
 }
 #find{
-    margin-left: 40px;
+    margin-left: 90px;
+    margin-right: 60px;
 }
 #res
 {
-    margin-left:100px;
+    margin-left:150px;
     margin-right: 110px;
 }
 #faq{
-    margin-right:90px;
+    margin-left:100px;
+    margin-right:120px;
 }
 body{
     background-color: #cad2c5;
@@ -29,12 +47,96 @@ header{
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    border-radius: 70px;
+    border-radius:  0 0 50px 50px;
     font-family: georgia;
-    font-size: 17px;
+    font-size: 18px;
 
 }
 a{
     color:#6a994e;
     text-decoration: none;
+}
+#cap{
+    
+    right:100px;
+    height:400px;
+
+}
+footer {
+    background-color: #f0f0f0;
+    padding:5px;
+    color: #333;
+    margin-top:310px;
+    border-radius: 50px 50px 0 0;
+    font-family:Georgia;
+   
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.footer-container div {
+    flex: 1;
+    padding: 0 10px;
+    font-size: 60px;
+}
+
+.footer-left h3,
+.footer-center h3,
+.footer-right h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer-left p,
+.footer-right p {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.footer-center ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-center ul li {
+    margin-bottom: 5px;
+}
+
+.footer-center ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-center ul li a:hover {
+    color: #000;
+}
+#mybutton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+button{
+    background-color:#5d760a;;
+    color:white;
+    height:50px;
+    width:250px;
+    font-size: 20px;
+    font-family: georgia;
+    border-radius: 25px;
+}
+button:hover
+{
+    color:#3e732d;
+    background-color:rgb(206, 218, 209);
+    cursor:pointer;
+}
+a:hover{
+    color:#08d026;
 }
