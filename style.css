@@ -1,0 +1,40 @@
+img{
+    padding-left: 50px;
+    width:15em;
+    opacity: 0.7;
+    margin-right:300px;
+}
+#quote
+{
+    height:10px;
+}
+#find{
+    margin-left: 40px;
+}
+#res
+{
+    margin-left:100px;
+    margin-right: 110px;
+}
+#faq{
+    margin-right:90px;
+}
+body{
+    background-color: #cad2c5;
+}
+header{
+    color:#6a994e;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 70px;
+    font-family: georgia;
+    font-size: 17px;
+
+}
+a{
+    color:#6a994e;
+    text-decoration: none;
+}
